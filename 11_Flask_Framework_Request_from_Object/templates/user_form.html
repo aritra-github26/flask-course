@@ -1,0 +1,24 @@
+<!-- file: templates/user_form.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form method="POST" action="/process">
+        <label>Username:</label><br>
+        <input type="text" name="username" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Feedback:</label><br>
+        <textarea name="feedback" required></textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>

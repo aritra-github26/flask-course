@@ -1,0 +1,19 @@
+<!-- file: templates/form.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Request Object</title>
+</head>
+<body>
+    <h2>Fill the Form</h2>
+    <form action="/submit?ref=homepage" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required><br><br>
+        <label>Age:</label>
+        <input type="number" name="age" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
